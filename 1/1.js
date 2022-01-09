@@ -31,8 +31,6 @@ let timeToEat = timeString => {
     }
     return [h,min]
 }
-
-
 console.log(timeToEat("2:00 p.m.")) // [5, 0]
 console.log(timeToEat("5:50 a.m.")) // [1, 10]
 
